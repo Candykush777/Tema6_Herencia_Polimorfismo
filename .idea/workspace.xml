@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaMultimedia/ListaMultimedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/ListaMultimedia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/Entrada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/controller_Multimedia/Coleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/controller_Multimedia/Coleccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Audio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Multimedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Multimedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema6_Herencia_Polimorfismo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema6_Herencia_Polimorfismo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +33,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/controller_Multimedia/Coleccion.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Audio.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Libro.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Multimedia.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Persona.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Video.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -54,16 +58,21 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Entrada.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo/.idea/libraries/lombok.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
   <component name="RunManager">
@@ -113,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710810195425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1710953406831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710953406831</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1710955533019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710955533019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

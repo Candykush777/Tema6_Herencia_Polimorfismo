@@ -11,13 +11,14 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @Setter
 @AllArgsConstructor
-public class Video extends Multimedia{
+public final class  Video extends Multimedia{
 
 private Persona director;
-ArrayList<Persona>actores;
+private ArrayList<Persona>actores;
 
 
     public Video() {
+        actores = new ArrayList<>();
     }
 
     public Video(String titulo, String formato, int tamaño, int id, Persona autor, Persona director, ArrayList<Persona> actores) {
@@ -45,7 +46,7 @@ ArrayList<Persona>actores;
     @Override
     public void mostrarDatos() {
         super.mostrarDatos();
-        System.out.println(director.getNombre());
+        director.mostrarDatos();
         for(Persona item : actores){
             System.out.println(item.getNombre());
         }

@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 
-public class Libro extends Multimedia{
+public final class Libro extends Multimedia{
 
     private int ISBN;
     private int numeroPaginas;

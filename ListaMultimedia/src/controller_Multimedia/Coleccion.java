@@ -16,15 +16,44 @@ import java.util.Scanner;
 public class Coleccion {
     Scanner scanner = new Scanner(System.in);
     private ArrayList<Multimedia> listaMultimedia;
+
     private int id; /* esto ya lo tenemos en multimedia, no entiendo muy bien, será para buscarlo por id y xq no se coge de
     multimedia*/
 
-    private Multimedia existeMultiumedia(int id) {
-        for (Multimedia item : listaMultimedia) {
-            if (item.getId() == id) return item;
-        }
-        return null;
+    public Coleccion() {
+        this.listaMultimedia = new ArrayList<>();
     }
+
+    public void añadirColeccion() {
+        int option;
+        do {
+            System.out.println("Que deseamos añadir : ");
+            System.out.println(""" 
+                    1) Video, 
+                    2) Audio 
+                    3) Libro 
+                    4) Salir """);
+
+            option = scanner.nextInt();
+            scanner.nextLine();
+            switch (option) {
+                case 1:
+                    agregarVideo();
+                    break;
+                case 2:
+                    agregarAudio();
+                    break;
+                case 3:
+                    agregarLibro();
+                    break;
+
+                default:
+                    System.out.println("Opcion no válida");
+            }
+
+        } while (option != 4);
+    }
+
 
     //  String titulo, String formato, int tamaño, int id, Persona autor, int ISBN, int numeroPaginas)
     public void agregarLibro() {
@@ -43,9 +72,9 @@ public class Coleccion {
             System.out.println("Introduce tamaño:");
             libro.setTamaño(scanner.nextInt());
             scanner.nextLine(); // Consumir la nueva línea pendiente después de nextInt(), pero abajo no ahce falta xq biene otro int y no line
-            System.out.println("Introduce nombre:");
+            System.out.println("Introduce nombre autor :");
             autor.setNombre(scanner.nextLine());
-            System.out.println("Introduce DNI:");
+            System.out.println("Introduce DNI autor :");
             autor.setDni(scanner.nextLine());
             System.out.println("Introduce ISBN:");
             libro.setISBN(scanner.nextInt());
@@ -65,6 +94,7 @@ public class Coleccion {
         System.out.println("Has escogido Vídeo");
         System.out.println("Introduce el identificador: ");
         id = scanner.nextInt();
+        scanner.nextLine();
         if (existeMultiumedia(id) == null) {
             Video video = new Video();
             Persona director = new Persona();// no sé si tengo que poner persona o director.
@@ -77,13 +107,13 @@ public class Coleccion {
             System.out.println("Introduce tamaño:");
             video.setTamaño(scanner.nextInt());
             scanner.nextLine();
-            System.out.println("Introduce nombre:");
+            System.out.println("Introduce nombre autor:");
             autor.setNombre(scanner.nextLine());
-            System.out.println("Introduce DNI:");
+            System.out.println("Introduce DNI autor :");
             autor.setDni(scanner.nextLine());
-            System.out.println("Introduce nombre:");
+            System.out.println("Introduce nombre director :");
             director.setNombre(scanner.nextLine());
-            System.out.println("Introduce DNI:");
+            System.out.println("Introduce DNI director :");
             director.setDni(scanner.nextLine());
             video.setAutor(autor);
             video.setDirector(director);
@@ -130,23 +160,122 @@ public class Coleccion {
         }
     }
 
+    private Multimedia existeMultiumedia(int id) {
+        for (Multimedia item : listaMultimedia) {
+            if (item.getId() == id) return item;
+        }
+        return null;
+    }
+
+
     public void eliminarMultimedia(int id) {
 
         Multimedia eliminar = existeMultiumedia(id);
-        if(eliminar !=null){
+        if (eliminar != null) {
             listaMultimedia.remove(eliminar);
-            System.out.println("El archivo Multimedia se ha borrado correctamente :");
-        } else{
+            System.out.println("El archivo Multimedia se ha borrado correctamente ");
+        } else {
             System.out.println("El ID introducido no existe en la lista");
-             //Aquí sería la misma lógica pero al reves
+            //Aquí sería la misma lógica pero al reves
             /*if (eliminar == null) {
         System.out.println("El ID introducido no existe en la lista");
     } else {
         listaMultimedia.remove(eliminar);
         System.out.println("El archivo Multimedia se ha borrado correctamente");*/
+        }
     }
+
+    public void listarVideos() {
+        System.out.println("Videos : ");
+        for (Multimedia item : listaMultimedia) {
+            if (item instanceof Video) {
+                item.mostrarDatos();
+            }
+        }
+    }
+
+    public void listarAudios() {
+        System.out.println("Audios : ");
+        for (Multimedia item : listaMultimedia) {
+            if (item instanceof Audio) {
+                item.mostrarDatos();
+            }
+        }
+    }
+
+    public void listarLibros() {
+        System.out.println("Libros : ");
+        for (Multimedia item : listaMultimedia) {
+            if (item instanceof Libro) {
+                item.mostrarDatos();
+            }
+        }
+    }
+
+    public void listarTodos() {
+        System.out.println("Todos los elementos multimedia:");
+        for (Multimedia item : listaMultimedia) {
+            item.mostrarDatos();
         }
 
-
     }
+
+    public void listarMultimedia() {
+        int option;
+
+        do {
+            System.out.println("""
+                    1.- Listar Videos
+                    2.- Listar Audios
+                    3.- Listar Libros
+                    4.- Listar todos
+                    5.- Salir
+                    """);
+            option = scanner.nextInt();
+            scanner.nextLine();
+            switch (option) {
+                case 1:
+                    listarVideos();
+                    break;
+                case 2:
+                    listarAudios();
+                    break;
+                case 3:
+                    listarLibros();
+                    break;
+                case 4:
+                    listarTodos();
+                    break;
+                default:
+                    System.out.println("Has elegido una opcion erronea");
+            }
+
+        } while (option != 5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -12,7 +12,7 @@ import lombok.Setter;
 
 
 
-public class Multimedia {
+public abstract class Multimedia {
 
     private String titulo,formato;
     private int tamaño,id;

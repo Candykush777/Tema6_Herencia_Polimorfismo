@@ -1,28 +1,49 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+
+import controller_Multimedia.Coleccion;
 import model_Multimedia.Audio;
 import model_Multimedia.Libro;
 import model_Multimedia.Persona;
 import model_Multimedia.Video;
-@Getter
-@NoArgsConstructor
-@Setter
-@AllArgsConstructor
+
+import java.util.Scanner;
+
 
 public class Entrada {
 
     public static void main(String[] args) {
+        Coleccion coleccion = new Coleccion();
+        Scanner scanner = new Scanner(System.in);
+        int option;
 
-       /* Libro libro=new Libro("Lolita","Nabokop",200,"Papel",6996, 457);
-        Video video=new Video("X", "Rocco",130,"HD","Steven OH","Megan Fox");
-        Audio audio=new Audio("Gatuperio","ExtremoDuro","Digital", 90,"digital",120);
-        Persona actor =new Persona("Juan","52997904Q");
-        libro.mostrarDatos();
-        System.out.println("-----------------------------");
-        video.mostrarDatos();
-        System.out.println("-----------------------------");*/
+
+        do {
+            System.out.println("\nElige una opción del Menú :");
+
+            System.out.println(""" 
+                                        
+                    1.- Añadir a la colección
+                    2.- Eliminar de la colección
+                    3.- Listar elementos
+                    4.- Salir
+                    """);
+            option = scanner.nextInt();
+            scanner.nextLine();
+            switch (option) {
+                case 1:
+                    coleccion.añadirColeccion();
+                    break;
+                case 2:
+                    coleccion.eliminarMultimedia(scanner.nextInt());
+                case 3:
+                    coleccion.listarMultimedia();
+                default:
+                    System.out.println("Has elegido una opción erronea");
+
+            }
+
+
+        } while (option != 4);
+
 
     }
 }
