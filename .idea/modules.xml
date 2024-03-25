@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejemplos_ToString_Equals.iml" filepath="$PROJECT_DIR$/Ejemplos_ToString_Equals.iml" />
       <module fileurl="file://$PROJECT_DIR$/ListaMultimedia/ListaMultimedia.iml" filepath="$PROJECT_DIR$/ListaMultimedia/ListaMultimedia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tema6_Herencia_Polimorfismo.iml" filepath="$PROJECT_DIR$/Tema6_Herencia_Polimorfismo.iml" />
     </modules>
