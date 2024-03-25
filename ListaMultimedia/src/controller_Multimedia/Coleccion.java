@@ -1,5 +1,6 @@
 package controller_Multimedia;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -62,7 +63,7 @@ public class Coleccion {
         id = scanner.nextInt();
         scanner.nextLine();
         if (existeMultiumedia(id) == null) {
-            ToString_Libro.Libro libro = new ToString_Libro.Libro();
+            model_Multimedia.Libro libro = new model_Multimedia.Libro();
             Persona autor = new Persona();
             libro.setId(id);
             System.out.println("Introduce el título:");
@@ -206,7 +207,7 @@ public class Coleccion {
     public void listarLibros() {
         System.out.println("ToString_Biblioteca.Libros : ");
         for (Multimedia item : listaMultimedia) {
-            if (item instanceof ToString_Libro.Libro) {
+            if (item instanceof model_Multimedia.Libro) {
                 item.mostrarDatos();
             }
         }
