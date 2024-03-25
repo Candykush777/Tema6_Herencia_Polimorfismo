@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update" />
+    <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Principal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Biblioteca.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Entrada3.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Libros.java" root0="SKIP_INSPECTION" />
@@ -56,6 +62,7 @@
     "Application.Entrada.executor": "Run",
     "Application.Entrada1.executor": "Run",
     "Application.Entrada3.executor": "Run",
+    "Application.Principal.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -73,7 +80,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Entrada3">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrada" />
       <module name="ListaMultimedia" />
@@ -101,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Equals_Producto.Principal" />
+      <module name="Ejemplos_ToString_Equals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Equals_Producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ToString_Persona.Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ToString_Persona.Entrada" />
       <module name="Ejemplos_ToString_Equals" />
@@ -110,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Entrada3" />
         <item itemvalue="Application.Entrada1" />
         <item itemvalue="Application.ToString_Persona.Entrada" />
@@ -182,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711390493564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1711390821991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711390821991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
