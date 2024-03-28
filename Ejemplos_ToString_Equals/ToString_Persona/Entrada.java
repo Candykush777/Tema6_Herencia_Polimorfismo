@@ -17,6 +17,6 @@ public class Entrada {
         Scanner scanner=new Scanner(System.in);
 
         Persona persona=new Persona("Juan",30);
-       // persona.toString();
+       // persona.toString(); de manera explicita
         System.out.println(persona.toString());
 }}

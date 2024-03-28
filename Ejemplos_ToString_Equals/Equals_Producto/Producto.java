@@ -8,7 +8,7 @@ public class Producto {
 
     public Producto() {
     }
-
+@Override
     public String toString(){
 
 
@@ -46,6 +46,7 @@ public class Producto {
     }
 
     //Método equals
+
     public boolean equals(Producto producto) {
 
         return this.nombre.equalsIgnoreCase(producto.nombre) && this.codigo == producto.codigo;

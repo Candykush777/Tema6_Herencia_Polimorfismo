@@ -37,7 +37,7 @@ public class Biblioteca {
         listalibros.add(libro);
 
     }
-
+@Override
     public String toString() {
 
         String Biblioteca= "Nombre Biblioteca : " +nombre +"\n";

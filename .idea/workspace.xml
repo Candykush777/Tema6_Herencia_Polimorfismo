@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/Trabajadores.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/src/controller_Trabajadores/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Asalariados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Autonomo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Jefes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Trabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Persona/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Persona/Entrada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +49,11 @@
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Multimedia.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Persona.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Video.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Asalariados.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Autonomo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Empresa.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Jefes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Trabajador.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -211,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711390821991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1711406459538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711406459539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
