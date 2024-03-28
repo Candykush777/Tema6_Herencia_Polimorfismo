@@ -3,6 +3,7 @@ package ToString_Biblioteca;
 import ToString_Libro.Libro;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Biblioteca {
 
@@ -47,5 +48,24 @@ public class Biblioteca {
         }
 
         return Biblioteca;
+    }
+    /*   @Override
+    public String toString() {
+        return "Biblioteca{" +
+                "nombre='" + nombre + '\'' +
+                ", listalibros=" + listalibros +
+                '}';
+    }  Esto es lo que me hace generate*/
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Biblioteca that)) return false;
+        return Objects.equals(nombre, that.nombre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre);
     }
 }

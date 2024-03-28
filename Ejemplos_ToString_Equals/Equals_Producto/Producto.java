@@ -63,8 +63,4 @@ public class Producto {
         return codigo == producto.codigo && nombre.equalsIgnoreCase(producto.nombre);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(nombre, codigo);
-    }
 }

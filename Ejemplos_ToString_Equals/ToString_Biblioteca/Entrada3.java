@@ -15,5 +15,17 @@ public class Entrada3 {
 
         System.out.println(biblio.toString());
 
-    }
-}
+        boolean sonIguales=(libro1.equals(libro2));
+
+        if(sonIguales){
+            System.out.println("Los libros son iguales");
+
+
+
+        }else {
+            System.out.println("No son iguales");
+        }
+
+    }}
+
+
