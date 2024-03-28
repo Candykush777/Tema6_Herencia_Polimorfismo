@@ -1,5 +1,6 @@
 package Ejercicio3;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Estudiante {
@@ -11,6 +12,11 @@ public class Estudiante {
     public static void main(String[] args) {
         Estudiante estudiante1=new Estudiante("Juan",27,3.2,5.6,8.3);
         Estudiante estudiante2=new Estudiante("Ana",35,7.4,6.5,9);
+
+       ArrayList<Estudiante>listaEstudiantes = new ArrayList<>();
+        listaEstudiantes.add(estudiante1);
+        listaEstudiantes.add(estudiante2);
+
 
         System.out.println(estudiante1.toString());
         System.out.println(estudiante2.toString());
@@ -92,6 +98,13 @@ public class Estudiante {
                 ", nota2=" + nota2 +
                 ", nota3=" + nota3 +
                 '}';
+    }
+
+    public void mostarLista(Estudiante estudiante){
+
+        System.out.println("Lista de estudiantes : ");
+
+       // for(estudiante item : lis;)
     }
 
     @Override
