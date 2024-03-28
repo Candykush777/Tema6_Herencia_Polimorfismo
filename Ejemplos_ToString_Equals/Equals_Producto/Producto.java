@@ -1,5 +1,7 @@
 package Equals_Producto;
 
+import java.util.Objects;
+
 public class Producto {
 
     private String nombre;
@@ -47,10 +49,22 @@ public class Producto {
 
     //Método equals
 
-    public boolean equals(Producto producto) {
+    /*public boolean equals(Producto producto) {
 
         return this.nombre.equalsIgnoreCase(producto.nombre) && this.codigo == producto.codigo;
 
 
+    }*/
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Producto producto)) return false;
+        return codigo == producto.codigo && nombre.equalsIgnoreCase(producto.nombre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, codigo);
     }
 }

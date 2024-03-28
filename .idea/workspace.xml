@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Trabajadores/Trabajadores.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajadores/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajadores/src/controller_Trabajadores/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Asalariados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Autonomo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Jefes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Trabajador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Persona/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Persona/Entrada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +77,14 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/ProgramacionObtetos/Ejercicio_Clase_Interfaz",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.Entrada3">
     <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrada" />
       <module name="ListaMultimedia" />
@@ -144,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Entrada3" />
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Entrada1" />
         <item itemvalue="Application.ToString_Persona.Entrada" />
         <item itemvalue="Application.Entrada" />
@@ -233,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711406459539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1711618384231</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711618384231</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
