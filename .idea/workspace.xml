@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/Simulacro_Marzo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Figura2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/FiguraGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Prueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio3/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anidadas_Tema8/Anidadas_Tema8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anidadas_Tema8/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anidadas_Tema8/src/model/Terreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pruebas_Notion/Pruebas_Notion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pruebas_Notion/src/Anidadas1/ClaseExterna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pruebas_Notion/src/Anidadas1/Entrada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Anidadas_Tema8/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Anidadas_Tema8/src/model/Terreno.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejemplos_ToString_Equals/ToString_Biblioteca/Biblioteca.java" root0="SKIP_INSPECTION" />
@@ -47,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Multimedia.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Persona.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ListaMultimedia/src/model_Multimedia/Video.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Pruebas_Notion/src/Anidadas1/Entrada.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Circulo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Figura2D.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Rectangulo.java" root0="SKIP_INSPECTION" />
@@ -81,6 +83,7 @@
     "Application.Entrada3.executor": "Run",
     "Application.Estudiante.executor": "Run",
     "Application.Principal.executor": "Run",
+    "Application.entrada.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -91,14 +94,14 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Proyectos/Proyecto_Biblioteca",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Estudiante">
+  <component name="RunManager" selected="Application.Entrada (1)">
     <configuration name="Ejercicio2.Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio2.Entrada" />
       <module name="Simulacro_Marzo" />
@@ -112,19 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entrada1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToString_Libro.Entrada1" />
-      <module name="Ejemplos_ToString_Equals" />
+    <configuration name="Entrada (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrada" />
+      <module name="Anidadas_Tema8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entrada3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToString_Biblioteca.Entrada3" />
-      <module name="Ejemplos_ToString_Equals" />
+    <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Anidadas1.Entrada" />
+      <module name="Pruebas_Notion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ToString_Biblioteca.*" />
+          <option name="PATTERN" value="Anidadas1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Entrada (1)" />
+        <item itemvalue="Application.Entrada" />
         <item itemvalue="Application.Estudiante" />
-        <item itemvalue="Application.Ejercicio2.Entrada" />
-        <item itemvalue="Application.Entrada3" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Entrada1" />
+        <item itemvalue="Application.Ejercicio2.Entrada" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711647054829</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <option name="closed" value="true" />
+      <created>1711652603482</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711652603482</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <option name="closed" value="true" />
+      <created>1711652938055</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711652938055</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

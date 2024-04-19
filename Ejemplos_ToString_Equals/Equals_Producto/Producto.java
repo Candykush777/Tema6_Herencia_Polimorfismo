@@ -56,11 +56,19 @@ public class Producto {
 
     }*/
 
+    /*@Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Producto producto)) return false;
+        return codigo == producto.codigo && nombre.equalsIgnoreCase(producto.nombre);
+    }*/
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Producto producto)) return false;
         return codigo == producto.codigo && nombre.equalsIgnoreCase(producto.nombre);
     }
+
 
 }
