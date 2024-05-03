@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Anidadas_Tema8/Anidadas_Tema8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anidadas_Tema8/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anidadas_Tema8/src/model/Terreno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pruebas_Notion/Pruebas_Notion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pruebas_Notion/src/Anidadas1/ClaseExterna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pruebas_Notion/src/Anidadas1/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/Ejercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/Simulacro_Presencial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Ingredientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,8 @@
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Rectangulo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Triangulo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio3/Estudiante.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Pizza.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Asalariados.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Autonomo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Jefes.java" root0="SKIP_INSPECTION" />
@@ -78,6 +78,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Ejercicio2.Entrada.executor": "Run",
     "Application.Entrada (1).executor": "Run",
+    "Application.Entrada (2).executor": "Run",
     "Application.Entrada.executor": "Run",
     "Application.Entrada1.executor": "Run",
     "Application.Entrada3.executor": "Run",
@@ -94,30 +95,24 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Proyectos/Proyecto_Biblioteca",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Entrada (1)">
-    <configuration name="Ejercicio2.Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio2.Entrada" />
-      <module name="Simulacro_Marzo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicio2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Entrada (2)">
+    <configuration name="Entrada (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrada" />
+      <module name="Anidadas_Tema8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entrada (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Entrada (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrada" />
-      <module name="Anidadas_Tema8" />
+      <module name="Simulacro_Presencial" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Entrada (2)" />
         <item itemvalue="Application.Entrada (1)" />
         <item itemvalue="Application.Entrada" />
         <item itemvalue="Application.Estudiante" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Ejercicio2.Entrada" />
       </list>
     </recent_temporary>
   </component>

@@ -23,10 +23,7 @@ public abstract class Figura2D implements FiguraGeometrica {
         this.nombre = nombre;
     }
 
-    @Override
-    public   void calcularPerimetro() {
 
-    }
 
     public String getNombre() {
         return nombre;

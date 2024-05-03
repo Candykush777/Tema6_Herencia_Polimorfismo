@@ -1,27 +1,21 @@
-package Ejercicio2;
+package Ejerciciofiguras.model;
 
-import java.util.Objects;
+import Ejerciciofiguras.model.Figura2D;
 
-public class Rectangulo extends Figura2D{
+public class Rectangulo extends Figura2D {
 
-    private String nombre;
-    private int base,altura;
+    private int base;
+    private int altura;
 
     public Rectangulo() {
     }
 
+
+
     public Rectangulo(String nombre, int base, int altura) {
-        this.nombre = nombre;
+        super(nombre);
         this.base = base;
         this.altura = altura;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public int getBase() {
@@ -41,10 +35,15 @@ public class Rectangulo extends Figura2D{
     }
 
     @Override
+    public void calcularPerimetro() {
+        double perimetro=base +altura;
+        System.out.println("El perimetro del rectangulo es : " +perimetro);
+    }
+
+    @Override
     public String toString() {
         return "Rectangulo{" +
-                "nombre='" + nombre + '\'' +
-                ", base=" + base +
+                "base=" + base +
                 ", altura=" + altura +
                 '}';
     }
@@ -53,13 +52,11 @@ public class Rectangulo extends Figura2D{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Rectangulo that)) return false;
-        return base == that.base && altura == that.altura && Objects.equals(nombre, that.nombre);
+        return base == that.base && altura == that.altura;
     }
 
     @Override
-    public double calcularPerimetro() {
-
-        double perimetro=(base)+(altura);
-        return perimetro;
+    public int hashCode() {
+        return 0;
     }
 }

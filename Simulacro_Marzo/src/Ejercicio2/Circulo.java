@@ -49,8 +49,9 @@ public class Circulo extends Figura2D{
     }
 
     @Override
-    public void calcularPerimetro() {
-        super.calcularPerimetro();
+    public double calcularPerimetro() {
+
         double perimetro=2*Math.PI*radio;
+        return perimetro;
     }
 }

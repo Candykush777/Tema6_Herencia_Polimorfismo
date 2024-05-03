@@ -67,8 +67,9 @@ public class Triangulo extends Figura2D{
     }
 
     @Override
-    public void calcularPerimetro() {
-        super.calcularPerimetro();
+    public double calcularPerimetro() {
+
         double perimetro=(lado1+lado2+lado3);
+        return perimetro;
     }
 }
