@@ -1,3 +1,5 @@
+package Ejerciciofiguras.model;
+
 import Ejerciciofiguras.model.Circulo;
 import Ejerciciofiguras.model.Figura2D;
 import Ejerciciofiguras.model.Rectangulo;

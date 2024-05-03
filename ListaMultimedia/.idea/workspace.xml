@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2aa7e74-7ca4-4e74-8e56-33c82f5f1af0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Anidadas_Tema8/Anidadas_Tema8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Anidadas_Tema8/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Anidadas_Tema8/src/model/Terreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pruebas_Notion/Pruebas_Notion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pruebas_Notion/src/Anidadas1/ClaseExterna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pruebas_Notion/src/Anidadas1/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejemplos_ToString_Equals/Equals_Producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejemplos_ToString_Equals/Equals_Producto/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaMultimedia.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2fJYTe4ULbSWSynlh3ZkNsJkOUc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo/ListaMultimedia"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2aa7e74-7ca4-4e74-8e56-33c82f5f1af0" name="Changes" comment="" />
+      <created>1713520656385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713520656385</updated>
+    </task>
+    <servers />
+  </component>
+</project>
