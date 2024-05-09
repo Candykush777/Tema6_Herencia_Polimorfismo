@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/Ejercicio3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/Simulacro_Presencial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Ingredientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +89,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Entornos",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
