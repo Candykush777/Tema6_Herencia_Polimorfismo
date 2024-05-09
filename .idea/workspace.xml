@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Controller/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/Pizza/Pizza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Ingrediente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulacro_Presencial/src/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Aplicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/src/Entrada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,10 @@
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Triangulo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio3/Estudiante.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Aplicacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Ingrediente.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Pizza.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Asalariados.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Autonomo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Jefes.java" root0="SKIP_INSPECTION" />
@@ -77,6 +82,7 @@
     "Application.Ejercicio2.Entrada.executor": "Run",
     "Application.Entrada (1).executor": "Run",
     "Application.Entrada (2).executor": "Run",
+    "Application.Entrada (3).executor": "Run",
     "Application.Entrada.executor": "Run",
     "Application.Entrada1.executor": "Run",
     "Application.Entrada3.executor": "Run",
@@ -100,7 +106,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Aplicacion">
+  <component name="RunManager" selected="Application.Entrada (2)">
     <configuration name="Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjercicioLibro.Aplicacion" />
       <module name="Simulacro_Marzo" />
@@ -128,6 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Entrada (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrada" />
+      <module name="Ejercicio3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Anidadas1.Entrada" />
       <module name="Pruebas_Notion" />
@@ -141,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Estudiante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio3.Estudiante" />
-      <module name="Simulacro_Marzo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicio3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Aplicacion" />
         <item itemvalue="Application.Entrada (2)" />
+        <item itemvalue="Application.Entrada (3)" />
+        <item itemvalue="Application.Aplicacion" />
         <item itemvalue="Application.Entrada (1)" />
         <item itemvalue="Application.Entrada" />
-        <item itemvalue="Application.Estudiante" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711652938055</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <option name="closed" value="true" />
+      <created>1715287995246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715287995246</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
