@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public abstract class Libro implements LibroPaginas{
 
-    private String titulo;
+    protected String titulo;
     private String autor;
     private int añoPublicacion;
     private int numeroPaginas;
-    private ArrayList<Libro>listaLibros=new ArrayList<>();
+
 
     public Libro() {
     }
@@ -20,10 +20,7 @@ public abstract class Libro implements LibroPaginas{
         this.numeroPaginas = numeroPaginas;
     }
 
-    public void añadirLibro(Libro libro){
-        listaLibros.add(libro);
 
-    }
 
 
     @Override

@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3577d82b-44ab-4fc6-beb9-60133aeacdf1" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Controller/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Aplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simulacro_Presencial/Ejercicio3/src/Entrada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Rectangulo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio2/Triangulo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/Ejercicio3/Estudiante.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Entrada.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Simulacro_Presencial/src/Pizza.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Simulacro_Marzo/src/EjercicioLibro/Aplicacion.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Asalariados.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Autonomo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Trabajadores/src/model_Trabajadores/Jefes.java" root0="SKIP_INSPECTION" />
@@ -70,6 +73,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Aplicacion.executor": "Run",
     "Application.Ejercicio2.Entrada.executor": "Run",
     "Application.Entrada (1).executor": "Run",
     "Application.Entrada (2).executor": "Run",
@@ -89,14 +93,27 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Entornos",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/Tema6_Herencia_Polimorfismo",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Entrada (2)">
+  <component name="RunManager" selected="Application.Aplicacion">
+    <configuration name="Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioLibro.Aplicacion" />
+      <module name="Simulacro_Marzo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjercicioLibro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Entrada (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrada" />
       <module name="Anidadas_Tema8" />
@@ -137,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Equals_Producto.Principal" />
-      <module name="Ejemplos_ToString_Equals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Equals_Producto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aplicacion" />
         <item itemvalue="Application.Entrada (2)" />
         <item itemvalue="Application.Entrada (1)" />
         <item itemvalue="Application.Entrada" />
         <item itemvalue="Application.Estudiante" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>

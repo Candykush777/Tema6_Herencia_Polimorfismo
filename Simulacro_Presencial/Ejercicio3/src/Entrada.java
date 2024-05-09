@@ -31,7 +31,7 @@ public class Entrada {
                     break;
                 case 2:
                     // Agregar ingrediente
-                  Systtem.out.print("Ingrese el nombre del ingrediente: ");
+                  System.out.print("Ingrese el nombre del ingrediente: ");
                     String nombreIngrediente = scanner.nextLine();
                     System.out.print("Ingrese el precio del ingrediente: ");
                     int precioIngrediente = scanner.nextInt();
